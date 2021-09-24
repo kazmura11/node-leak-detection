@@ -1,0 +1,17 @@
+{
+  "name": "leak_det",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace_gc --expose-gc index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@icebob/node-memwatch": "^2.1.0",
+    "heapdump": "^0.3.7"
+  }
+}
